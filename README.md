@@ -36,15 +36,15 @@ Stops ELO-draining tilt on chess.com. After a loss, it starts a configurable **c
 ## Screenshots
 
 <p>
-  <img src="images/Screenshots/screenshot1.png" width="500" alt="Screenshot 1">
-  <img src="images/Screenshots/screenshot2.png" width="500" alt="Screenshot 2">
+  <img src="images/Screenshots/screenshot1.png" width="900" alt="Screenshot 1">
+  <img src="images/Screenshots/screenshot2.png" width="900" alt="Screenshot 2">
 </p>
 <p>
-  <img src="images/Screenshots/screenshot3.png" width="500" alt="Screenshot 3">
-  <img src="images/Screenshots/screenshot4.png" width="500" alt="Screenshot 4">
+  <img src="images/Screenshots/screenshot3.png" width="900" alt="Screenshot 3">
+  <img src="images/Screenshots/screenshot4.png" width="900" alt="Screenshot 4">
 </p>
 <p>
-  <img src="images/Screenshots/screenshot5.png" width="500" alt="Screenshot 5">
+  <img src="images/Screenshots/screenshot5.png" width="900" alt="Screenshot 5">
 </p>
 
 ## Privacy
