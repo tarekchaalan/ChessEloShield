@@ -1,7 +1,7 @@
 # ♟️🛡️ ChessEloShield 🛡️♟️
 
-[![Get it on Chrome Web Store](images/chrome-img.png)](https://www.waitingtogetapproved.com)
-[![Get it on Firefox Add-ons](images/firefox-img.png)](https://www.waitingtogetapproved.com)
+[![Get it on Chrome Web Store](images/Browser-Icons/chrome-img.png)](https://www.waitingtogetapproved.com)
+[![Get it on Firefox Add-ons](images/Browser-Icons/firefox-img.png)](https://www.waitingtogetapproved.com)
 
 Stops ELO-draining tilt on chess.com. After a loss, it starts a configurable **cooldown** and freezes ways to start a new game (Quick Play, Start Game, New 1 min, Rematch). Buttons show a **MM:SS** countdown via a CSS overlay (no React flicker). Cooldown survives page changes/reloads. Optional **Hide chat** and **Hide opponent info**. A subtle **Remove Cooldown** link is available in the popup.
 
@@ -32,6 +32,20 @@ Stops ELO-draining tilt on chess.com. After a loss, it starts a configurable **c
 - Presets: 5s / 15s / 1m / 3m / 5m + custom.
 - Toggles: **Hide chat**, **Hide opponent info**.
 - **Remove Cooldown** link (bottom-right).
+
+## Screenshots
+
+<p>
+  <img src="images/Screenshots/screenshot1.png" width="320" alt="Screenshot 1">
+  <img src="images/Screenshots/screenshot2.png" width="320" alt="Screenshot 2">
+</p>
+<p>
+  <img src="images/Screenshots/screenshot3.png" width="320" alt="Screenshot 3">
+  <img src="images/Screenshots/screenshot4.png" width="320" alt="Screenshot 4">
+</p>
+<p>
+  <img src="images/Screenshots/screenshot5.png" width="320" alt="Screenshot 5">
+</p>
 
 ## Privacy
 
