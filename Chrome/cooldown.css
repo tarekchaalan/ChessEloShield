@@ -1,0 +1,74 @@
+/* ChessEloShield — CSS-only freeze overlay */
+html.tg-cooling {
+  --tg-timer: "00:00";
+}
+
+/* Focus helpers (expanded to your samples) */
+html.tg-hide-chat .resizable-chat-area-content {
+  display: none !important; /* hide the whole chat block you shared */
+}
+
+html.tg-hide-opp :is(
+  /* Your provided elements */
+  .player-avatar-component, .player-avatar,
+  .player-tagline, .rating-score-component, .rating-score-rating, .rating-score-change,
+  .player-game-over-component,
+  /* Older/other contexts */
+  .user-tagline-rating, .game-over-players .user-rating, .post-game-user .user-tagline-rating,
+  .user-attr, [data-cy="user-rating"], .cc-user-block-component
+) {
+  visibility: hidden !important;
+}
+
+/* Freeze entry points during cooldown */
+html.tg-cooling :is(
+  /* Home quick play */
+  a.play-quick-links-link.play-quick-links-play-x-min,
+  a.play-quick-links-link[href*="/play/online/new"],
+
+  /* New Game big green button */
+  button.cc-button-component.cc-button-primary.cc-button-x-large.cc-bg-primary.cc-button-full,
+
+  /* Post-game actions */
+  button.game-over-buttons-button,
+  button[aria-label*="New 1 min" i],
+  button[aria-label*="Rematch" i]
+) {
+  position: relative !important;
+  pointer-events: none !important;
+  filter: grayscale(1) opacity(1) !important;
+  user-select: none !important;
+  overflow: hidden !important;
+}
+
+/* Hide original content; overlay MM:SS */
+html.tg-cooling
+  :is(
+    a.play-quick-links-link.play-quick-links-play-x-min,
+    a.play-quick-links-link[href*="/play/online/new"],
+    button.cc-button-component.cc-button-primary.cc-button-x-large.cc-bg-primary.cc-button-full,
+    button.game-over-buttons-button,
+    button[aria-label*="New 1 min" i],
+    button[aria-label*="Rematch" i]
+  )
+  > * {
+  visibility: hidden !important;
+}
+
+html.tg-cooling
+  :is(
+    a.play-quick-links-link.play-quick-links-play-x-min,
+    a.play-quick-links-link[href*="/play/online/new"],
+    button.cc-button-component.cc-button-primary.cc-button-x-large.cc-bg-primary.cc-button-full,
+    button.game-over-buttons-button,
+    button[aria-label*="New 1 min" i],
+    button[aria-label*="Rematch" i]
+  )::after {
+  content: var(--tg-timer);
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}

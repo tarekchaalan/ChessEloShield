@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "name": "ChessEloShield",
+  "version": "1.0.4",
+  "description": "Stops ELO-draining tilt on chess.com by freezing start-game actions after a loss, with a cooldown timer (customizable). Also allows hiding chat and info in-game.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "alarms",
+    "webNavigation",
+    "https://www.chess.com/*"
+  ],
+  "background": { "scripts": ["background.js"] },
+  "content_scripts": [
+    {
+      "matches": ["https://www.chess.com/*"],
+      "js": ["content.js"],
+      "css": ["cooldown.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "browser_action": {
+    "default_title": "ChessEloShield",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "icons/PawnShield32.png",
+      "48": "icons/PawnShield48.png",
+      "96": "icons/PawnShield96.png"
+    }
+  },
+  "icons": {
+    "32": "icons/PawnShield32.png",
+    "48": "icons/PawnShield48.png",
+    "96": "icons/PawnShield96.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "chesseoloshield@example.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}
