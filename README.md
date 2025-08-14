@@ -33,6 +33,14 @@ Stops ELO-draining tilt on chess.com. After a loss, it starts a configurable **c
 - Toggles: **Hide chat**, **Hide opponent info**.
 - **Remove Cooldown** link (bottom-right).
 
+## Privacy
+
+No analytics. No network calls. Only local sync storage: `settings`, `cooldownUntil`.
+
+## License
+
+MIT
+
 ## Screenshots
 
 <p>
@@ -46,11 +54,3 @@ Stops ELO-draining tilt on chess.com. After a loss, it starts a configurable **c
 <p>
   <img src="images/Screenshots/screenshot5.png" width="900" alt="Screenshot 5">
 </p>
-
-## Privacy
-
-No analytics. No network calls. Only local sync storage: `settings`, `cooldownUntil`.
-
-## License
-
-MIT
