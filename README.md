@@ -1,7 +1,8 @@
 # ♟️🛡️ ChessEloShield 🛡️♟️
 
-[![Get it on Chrome Web Store](images/Browser-Icons/chrome-img.png)](https://www.waitingtogetapproved.com)
-[![Get it on Firefox Add-ons](images/Browser-Icons/firefox-img.png)](https://www.waitingtogetapproved.com)
+[![Get it on Chrome Web Store](images/Browser-Icons/chrome-img.png)](https://chromewebstore.google.com/detail/chesseloshield/ekjahhkooocdfnjjdfmlglmlbdomkpkn)
+[![Get it on Firefox Add-ons](images/Browser-Icons/firefox-img.png)](https://addons.mozilla.org/en-US/firefox/addon/chesseloshield/)
+
 
 Stops ELO-draining tilt on chess.com. After a loss, it starts a configurable **cooldown** and freezes ways to start a new game (Quick Play, Start Game, New 1 min, Rematch). Buttons show a **MM:SS** countdown via a CSS overlay (no React flicker). Cooldown survives page changes/reloads. Optional **Hide chat** and **Hide opponent info**. A subtle **Remove Cooldown** link is available in the popup.
 
