@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ChessEloShield",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Avoid tilt on chess.com by freezing start-game actions after a loss, with a cooldown timer. Also allows hiding chat and info in-game",
   "permissions": ["storage", "tabs", "alarms", "webNavigation"],
   "host_permissions": ["https://www.chess.com/*"],
