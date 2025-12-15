@@ -18,14 +18,14 @@
     "default_title": "ChessEloShield",
     "default_popup": "popup.html",
     "default_icon": {
-      "32": "icons/PawnShield32.png",
-      "48": "icons/PawnShield48.png",
-      "96": "icons/PawnShield96.png"
+      "32": "./icons/PawnShield32.png",
+      "48": "./icons/PawnShield48.png",
+      "96": "./icons/PawnShield96.png"
     }
   },
   "icons": {
-    "32": "icons/PawnShield32.png",
-    "48": "icons/PawnShield48.png",
-    "96": "icons/PawnShield96.png"
+    "32": "./icons/PawnShield32.png",
+    "48": "./icons/PawnShield48.png",
+    "96": "./icons/PawnShield96.png"
   }
 }
