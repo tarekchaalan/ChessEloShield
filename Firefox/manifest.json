@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "ChessEloShield",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Stops ELO-draining tilt on chess.com by freezing start-game actions after a loss, with a cooldown timer (customizable). Also allows hiding chat and info in-game.",
   "permissions": [
     "storage",

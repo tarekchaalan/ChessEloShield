@@ -1,0 +1,5 @@
+cd Chrome
+zip -r ../Chrome-upload.zip . -x '*.DS_Store' -x '__MACOSX*'
+
+cd Firefox
+zip -r ../Firefox-upload.zip . -x '*.DS_Store' -x '__MACOSX*'
